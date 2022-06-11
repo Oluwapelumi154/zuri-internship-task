@@ -18,7 +18,7 @@ btn.addEventListener('click', () => {
       if (userInput === randomValue) {
         stage += 1
         point += 1
-        header.innerHTML = `Enter a value between the range of 1 and 3`
+        header.innerHTML = `Enter a Number between the range of 1 and 3`
         randomValue = getRandomValue(1, 3)
         input.setAttribute('max', '3')
         alert(`You entered value ${userInput} you guessed right`)
@@ -42,7 +42,7 @@ btn.addEventListener('click', () => {
       if (userInput === randomValue) {
         stage += 1
         point += 1
-        header.innerHTML = `Enter a value between the range of 1 and 4`
+        header.innerHTML = `Enter a Number between the range of 1 and 4`
         randomValue = getRandomValue(1, 4)
         input.setAttribute('max', '4')
         alert(`You entered value ${userInput} you guessed right`)
@@ -65,7 +65,7 @@ btn.addEventListener('click', () => {
       if (userInput === randomValue) {
         stage += 1
         point += 1
-        header.innerHTML = `Enter a value between the range of 1 and 5`
+        header.innerHTML = `Enter a Number between the range of 1 and 5`
         randomValue = getRandomValue(1, 5)
         input.setAttribute('max', '5')
         alert(`You entered the value ${userInput} you guessed right`)
@@ -89,7 +89,7 @@ btn.addEventListener('click', () => {
       if (userInput === randomValue) {
         stage += 1
         point += 1
-        header.innerHTML = `Enter a value between the range of 1 and 6`
+        header.innerHTML = `Enter a Number between the range of 1 and 6`
         randomValue = getRandomValue(1, 6)
         input.setAttribute('max', '6')
         alert(`You entered the value ${userInput} you guessed right`)
@@ -111,7 +111,7 @@ btn.addEventListener('click', () => {
     if (userInput !== '') {
       if (userInput === randomValue) {
         point += 1
-        header.innerHTML = `Enter a value between the range of 1 and 7`
+        header.innerHTML = `Enter a Number between the range of 1 and 7`
         randomValue = getRandomValue(1, 7)
         input.setAttribute('max', '7')
         alert(`You entered the value ${userInput} you guessed right`)
