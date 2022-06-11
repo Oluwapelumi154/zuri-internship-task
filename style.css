@@ -21,7 +21,7 @@ body {
 
 input[type="number"]{
   width:100%;
-  padding: 0.8rem 1rem;
+  padding: 0.7rem 1rem;
   border-color: rgb(160, 160, 160);
   border-width: 1px;
   border-style: solid;
